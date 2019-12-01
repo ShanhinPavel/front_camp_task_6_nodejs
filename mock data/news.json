@@ -1,0 +1,78 @@
+{
+  "source": {
+    "id": 1,
+    "name": "TechCrunch"
+  },
+  "author": "Zack Whittaker",
+  "title": "Millions of SMS messages exposed in database security lapse",
+  "description": "Exclusive: The exposed database was left unprotected without a password. None of the data was encrypted.",
+  "url": "https://techcrunch.com/2019/12/01/millions-sms-messages-exposed/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/11/GettyImages-1078141144-1.jpg?w=560",
+  "publishedAt": "2019-12-01T16:00:23Z",
+  "content": "A massive database storing tens of millions of SMS text messages, most of which were sent by businesses to potential customers, has been found online.\r\nThe database is run by TrueDialog, a business SMS provider for businesses and higher education providers, w… [+2670 chars]"
+}
+{
+  "source": {
+    "id": 2,
+    "name": "TechCrunch"
+  },
+  "author": "Lucas Matney",
+  "title": "Week in Review: Apple's rebirth as a content company has a forgettable debut",
+  "description": "Hey everyone. Thank you for welcoming me into you inboxes yet again. Hope you all had a wonderful Thanksgiving. After dodging your inboxes for a couple weeks as I ventured off to China for a TechCrunch event in Shenzhen, I am rested up and ready to go. If you…",
+  "url": "https://techcrunch.com/2019/12/01/week-in-review-apples-rebirth-as-a-content-company-has-a-forgettable-debut/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/03/Apple-TV-Seasame-Street.png?w=682",
+  "publishedAt": "2019-12-01T13:00:58Z",
+  "content": "Hey everyone. Thank you for welcoming me into you inboxes yet again.\r\nHope you all had a wonderful Thanksgiving. After dodging your inboxes for a couple weeks as I ventured off to China for a TechCrunch event in Shenzhen, I am rested up and ready to go.\r\nIf y… [+5686 chars]"
+}
+{
+  "source": {
+    "id": 3,
+    "name": "TechCrunch"
+  },
+  "author": "Ingrid Lunden",
+  "title": "Black Friday sees record $7.4B in online sales, $2.9B spent using smartphones",
+  "description": "Following swiftly on the heels of a Thanksgiving that broke records with $4.2 billion in online sales, Black Friday also hit a new high, although it just fell short of predictions. According to analytics from Adobe, consumers spent $7.4 billion online yesterd…",
+  "url": "https://techcrunch.com/2019/11/30/black-friday-sees-record-7-4b-in-online-sales-2-9b-spent-using-smartphones/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2017/11/gettyimages-625730788.jpg?w=600",
+  "publishedAt": "2019-12-01T00:55:52Z",
+  "content": "Following swiftly on the heels of a Thanksgiving that broke records with $4.2 billion in online sales, Black Friday also hit a new high, although it just fell short of predictions. According to analytics from Adobe, consumers spent $7.4 billion online yesterd… [+4095 chars]"
+}
+{
+  "source": {
+    "id": 4,
+    "name": "TechCrunch"
+  },
+  "author": "Connie Loizos",
+  "title": "Ockam raises $3.2 million in seed funding to make it easier for developers to secure and scale their IoT apps",
+  "description": "Ockam, a two-year-old, Bay Area-based company that’s selling tools to developers to they can establish an “architecture for trust” within their connected device applications, has raised $3.2 million in seed funding, including from Core Ventures, Okta Ventures…",
+  "url": "https://techcrunch.com/2019/11/30/ockam-raises-3-2-million-in-seed-funding-to-make-it-easier-for-developers-to-secure-and-scale-their-iot-apps/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/11/Screen-Shot-2019-11-30-at-3.46.02-PM.png?w=559",
+  "publishedAt": "2019-11-30T23:48:27Z",
+  "content": "Ockam, a two-year-old, Bay Area-based company that’s selling tools to developers to they can establish an “architecture for trust” within their connected device applications, has raised $3.2 million in seed funding, including from Core Ventures, Okta Ventures… [+1864 chars]"
+}
+{
+  "source": {
+    "id": 5,
+    "name": "TechCrunch"
+  },
+  "author": "Connie Loizos",
+  "title": "Storm Ventures just closed its sixth fund with $130 million",
+  "description": "Storm Ventures, a now 19-year-old, Sand Hill Road venture firm in Menlo Park, Ca., has closed on $130.4 million, shows a new SEC filing. The outfit began its fundraising late last, according to an earlier filing. It had closed its previous fund with $180 mill…",
+  "url": "https://techcrunch.com/2019/11/30/storm-ventures-just-closed-its-sixth-fund-with-130-million/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-06-at-1.24.38-PM.png?w=627",
+  "publishedAt": "2019-11-30T20:44:59Z",
+  "content": "Storm Ventures, a now 19-year-old, Sand Hill Road venture firm in Menlo Park, Ca., has closed on $130.4 million, shows a new SEC filing. The outfit began its fundraising late last, according to an earlier filing. It had closed its previous fund with $180 mill… [+1901 chars]"
+}
+{
+  "source": {
+    "id": 6,
+    "name": "TechCrunch"
+  },
+  "author": "Mike Butcher",
+  "title": "Facebook bowed to a Singapore government order to brand a news post as false",
+  "description": "Facebook added a correction notice to a post by a fringe news site that Singapore’s government said contained false information. It’s the first time the government has tried to enforce a new law against ‘fake news’ outside its borders. The post by fringe news…",
+  "url": "https://techcrunch.com/2019/11/30/facebook-bowed-to-a-singapore-government-order-to-brand-a-news-post-as-false/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/11/fb1.jpg?w=532",
+  "publishedAt": "2019-11-30T18:05:23Z",
+  "content": "Facebook added a correction notice to a post by a fringe news site that Singapore’s government said contained false information. Its the first time the government has tried to enforce a new law against fake news outside its borders.\r\nThe post by fringe news s… [+1968 chars]"
+}
