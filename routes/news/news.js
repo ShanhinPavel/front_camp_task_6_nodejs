@@ -1,7 +1,7 @@
 const express = require("express");
 const newsRouter = express.Router();
 
-const News = require("../../mongoose");
+const { News } = require("../../mongoose");
 
 newsRouter.get("/", (req, res) => {
   News.find({}, (err, articles) => {

@@ -1,0 +1,15 @@
+html
+  head
+    title="Register"
+  body
+    h1="Register"
+    form(action="/authenticate/register", method="post")
+      div
+        label(for="username") Username:
+        input(type="text", name="username", placeholder="username")
+      div
+        label(for="password") Password:
+        input(type="text", name="password", placeholder='password')
+      div
+        button(type="submit") Register
+    

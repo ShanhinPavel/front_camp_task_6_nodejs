@@ -1,19 +1,31 @@
 const express = require("express");
-const newsRouter = require("./routes");
 const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
+const session = require("express-session");
+
+const passport = require("./authenticate");
+const { authenticateRouter, newsRouter } = require("./routes");
 
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(cookieParser());
+app.use(session({ secret: "SECRET", resave: true, saveUninitialized: true }));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
 app.set("views", __dirname + "/views");
 app.set("view engine", "pug");
 
 app.use("/news", newsRouter);
+app.use("/authenticate", authenticateRouter);
+
+app.get("/", (req, res) => res.redirect("/authenticate/login"));
+
 app.get("/error", (req, res) => {
   throw new Error("error");
-});
-app.get("/", (req, res) => {
-  res.send('Add "/news" to get all news, or /news/1 to get one news');
 });
 
 app.use((err, req, res, next) => {

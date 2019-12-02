@@ -1,3 +1,4 @@
 const newsRouter = require("./news");
+const authenticateRouter = require("./authenticate");
 
-module.exports = newsRouter;
+module.exports = { newsRouter, authenticateRouter };

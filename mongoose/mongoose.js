@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
 const url = "localhost:27017";
 const dbName = "frontcamp";
+const uri = `mongodb://${url}/${dbName}`;
 
-mongoose.connect(`mongodb://${url}/${dbName}`, {
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
@@ -27,6 +28,21 @@ const newsSchema = new mongoose.Schema({
   content: String
 });
 
-const News = mongoose.model("News", newsSchema);
+const userSchema = new mongoose.Schema({
+  username: {
+    type: String,
+    unique: true,
+    required: true
+  },
+  password: {
+    type: String,
+    required: true
+  }
+});
 
-module.exports = News;
+const News = mongoose.model("News", newsSchema);
+const User = mongoose.model("User", userSchema);
+
+mongoose.set("useCreateIndex", true);
+
+module.exports = { News, User };

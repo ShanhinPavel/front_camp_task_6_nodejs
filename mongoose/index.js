@@ -1,3 +1,3 @@
-const News = require("./mongoose");
+const { News, User } = require("./mongoose");
 
-module.exports = News;
+module.exports = { News, User };

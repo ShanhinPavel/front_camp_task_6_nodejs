@@ -1,8 +1,10 @@
-**How to add the application**
+**How to use the application**
 
 1. Import file news.json which is placed in mock-data folder to local mongo db base by using command :
-   **mongoimport --db frontcamp --collection restaurants --file <path to news.json>**
+   **mongoimport --db frontcamp --collection news --file <path to news.json>**
 2. Run application **npm start**
+3. Import file news.json which is placed in mock-data folder to local mongo db base by using command :
+   **mongoimport --db frontcamp --collection users --file <path to users.json>**
 
 **Sources**:
 
