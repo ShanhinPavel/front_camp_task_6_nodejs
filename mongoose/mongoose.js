@@ -1,48 +1,59 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-const url = "localhost:27017";
-const dbName = "frontcamp";
+const url = 'localhost:27017';
+const dbName = 'frontcamp';
 const uri = `mongodb://${url}/${dbName}`;
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 });
 
 const db = mongoose.connection;
-db.on("error", console.error.bind(console, "connection error:"));
-db.once("open", function() {
-  console.log("We are connected");
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log('We are connected');
 });
 
 const newsSchema = new mongoose.Schema({
   source: {
     id: Number,
-    name: String
+    name: String,
   },
   author: String,
   title: String,
   description: String,
   urlToImage: String,
   publishedAt: Date,
-  content: String
+  content: String,
 });
 
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
     unique: true,
-    required: true
+    required: true,
   },
   password: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 });
 
-const News = mongoose.model("News", newsSchema);
-const User = mongoose.model("User", userSchema);
+const mySourceSchema = new mongoose.Schema({
+  id: String,
+  name: String,
+  description: String,
+  url: String,
+  category: String,
+  language: String,
+  country: String,
+});
 
-mongoose.set("useCreateIndex", true);
+const News = mongoose.model('News', newsSchema);
+const User = mongoose.model('User', userSchema);
+const Source = mongoose.model('Source', mySourceSchema, 'source');
 
-module.exports = { News, User };
+mongoose.set('useCreateIndex', true);
+
+module.exports = { News, User, Source };
