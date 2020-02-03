@@ -17,7 +17,7 @@ db.once('open', function() {
 
 const newsSchema = new mongoose.Schema({
   source: {
-    id: Number,
+    id: String,
     name: String,
   },
   author: String,
