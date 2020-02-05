@@ -1,0 +1,9 @@
+{
+  "id": "my-source",
+  "name": "My-source",
+  "description": "It is my course",
+  "url": "www",
+  "category": "my-source",
+  "language": "en",
+  "country": "by"
+}
