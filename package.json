@@ -6,8 +6,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "node ./index.js",
-    "start:dev": "nodemon ./index.js"
+    "start": "node ./index.js"
   },
   "devDependencies": {
     "express": "^4.17.1",
