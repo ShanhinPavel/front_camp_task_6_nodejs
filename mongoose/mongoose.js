@@ -5,7 +5,7 @@ const dbName = 'frontcamp';
 const uri = `mongodb://${url}/${dbName}`;
 const mongoCloudUri = process.env.MONGODB_URL;
 
-await mongoose.connect(mongoCloudUri, {
+mongoose.connect(mongoCloudUri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
