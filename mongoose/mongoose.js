@@ -3,8 +3,10 @@ const mongoose = require('mongoose');
 const url = 'localhost:27017';
 const dbName = 'frontcamp';
 const uri = `mongodb://${url}/${dbName}`;
+const mongoCloudUri =
+  'mongodb+srv://admin:FQFedD6xqodorkPf@cluster0-ha3t2.mongodb.net/frontcamp?retryWrites=true&w=majority';
 
-mongoose.connect(uri, {
+mongoose.connect(mongoCloudUri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
